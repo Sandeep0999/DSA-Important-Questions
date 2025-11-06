@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class AleinDictionary {
+public class AlienDictionary {
     public String findOrder(String[] words) {
         int n = words.length;
         
