@@ -47,7 +47,6 @@ public class NoOfWaysToArriveAtDestination {
                 else if(newdist == dist[adjnode]){
                     ways[adjnode] = (ways[adjnode] + ways[node]) % mod;
                 }
-
             }
         }
         return (ways[n-1] % mod);
